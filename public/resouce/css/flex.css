@@ -36,10 +36,12 @@
     background-color: orange;
 }
 
+/*(DICA)
+    Sempre manter as medias querys no final da configuração do css,
+para que as configurações acima não sobscreva as configurações das meidas querys
+*/
 @media screen and (max-width: 560px){
     .content-group{
-        width: 100%;
-        display: flex;
         flex-direction: column;
     }
     .content{
