@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    background-color: red;
+    /* width: 50%;  medida relativa */
+    width: 50vw; 
+    height: 200px;
+}
+.box2{
+    background-color: blue;
+    width: 50%; 
+    height: 200px; 
+}
+
+/* 
+tamanho em ( % ) refere-se ao tamanho do pai
+
+tamanho em ( vw ) refere-se ao tamanho da resolução da tela 
+*/
